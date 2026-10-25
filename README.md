@@ -1,139 +1,214 @@
-# 🏃 HiperMove
-### AI-Powered Mobility & Movement Analysis
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-Movement%20Analysis-0D9488?style=for-the-badge" alt="AI Movement Analysis" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-Pose%20Detection-6366F1?style=for-the-badge" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/React-TypeScript-3178C6?style=for-the-badge&logo=react&logoColor=white" alt="React TypeScript" />
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>Move Smarter. Analyze Better. Improve Every Rep.</strong>
-</p>
+# 🏃‍♀️ HIPERMOVE
+### AI-POWERED MOBILITY & MOVEMENT ANALYSIS
 
-<p align="center">
-  HiperMove is an AI-assisted movement analysis application designed to help users understand exercise technique through computer vision, pose estimation, movement metrics, and coaching insights.
-</p>
+**Move Smarter • Analyze Better • Improve Every Rep**
 
-<p align="center">
-  <a href="https://hiper-move-mobility-assistant--motionnn.replit.app/">
-    <img src="https://img.shields.io/badge/🚀_TRY_HIPERMOVE-LIVE_DEMO-0D9488?style=for-the-badge&labelColor=111827" alt="Try HiperMove Live Demo" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Madhuri-Kumari2504/HiperMove-Mobility-Assistant">
-    <img src="https://img.shields.io/badge/VIEW_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github" alt="View Source Code" />
-  </a>
-</p>
+<br/>
+
+![AI Movement Analysis](https://img.shields.io/badge/AI-Movement_Analysis-0D9488?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-Pose_Detection-6366F1?style=for-the-badge)
+![Team codeX](https://img.shields.io/badge/TEAM-codeX-8B5CF6?style=for-the-badge)
+![Development](https://img.shields.io/badge/STATUS-Active_Development-22C55E?style=for-the-badge)
+
+<br/>
+
+### 🚀 Transforming Human Movement Through Artificial Intelligence
+
+**HiperMove** is an AI-assisted movement analysis platform that combines computer vision, pose estimation, movement metrics, and intelligent coaching insights to help users understand and improve exercise technique.
+
+<br/>
+
+[![LIVE DEMO](https://img.shields.io/badge/🚀_LAUNCH_HIPERMOVE-LIVE_APPLICATION-0D9488?style=for-the-badge&labelColor=111827)](https://hiper-move-mobility-assistant--motionnn.replit.app/)
+
+[![GitHub](https://img.shields.io/badge/VIEW_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Madhuri-Kumari2504/HiperMove-Mobility-Assistant)
+
+<br/>
+
+### 💜 Developed by Team codeX
+**👑 Team Leader: Alka Kumari**
+
+*Innovation • Intelligence • Impact*
+
+</div>
 
 ---
 
-## 🌐 Experience HiperMove
+# 🌍 THE VISION
 
-<p align="center">
-  <a href="https://hiper-move-mobility-assistant--motionnn.replit.app/">
-    <strong>👉 OPEN THE LIVE APPLICATION</strong>
-  </a>
-  <br />
-  <sub>https://hiper-move-mobility-assistant--motionnn.replit.app/</sub>
-</p>
+> ### "Every movement tells a story. AI helps us understand it."
 
-Explore the deployed application and discover how computer vision can support exercise analysis and movement feedback.
+Traditional exercise feedback often relies on manual observation and subjective judgment.
 
-## ✨ What Is HiperMove?
+**HiperMove** explores how artificial intelligence can support movement analysis by transforming exercise videos into measurable insights.
 
-HiperMove brings movement analysis and AI-assisted fitness insights into an intuitive digital experience.
+Our vision is to make movement understanding more accessible through intelligent software.
 
-By combining video-based pose estimation with movement metrics, the application aims to help users better understand their exercise performance and identify areas for improvement.
+### 🎯 Our Mission
 
-Whether you're exploring movement patterns, reviewing repetitions, or examining joint angles, HiperMove provides a foundation for data-informed fitness feedback.
+- Democratize access to AI-assisted movement analysis.
+- Transform exercise videos into meaningful metrics.
+- Help users understand movement patterns.
+- Provide interpretable coaching insights.
+- Build a foundation for intelligent fitness applications.
 
-## 🚀 Key Features
+---
+
+# ✨ KEY FEATURES
 
 | Feature | Description |
-|---|---|
-| 🎥 Video Analysis | Upload supported exercise videos for analysis. |
-| 🦴 Pose Estimation | Detect body landmarks using computer vision. |
-| 🔁 Repetition Tracking | Estimate repetitions from detected movement patterns. |
-| 📐 Joint Angle Analysis | Calculate knee angles and observed angle ranges. |
-| 📊 Movement Metrics | Review metrics such as repetition duration and consistency estimates. |
-| 💡 AI Coaching Insights | Request explanations based on session metrics through the backend. |
-| ⚡ Interactive Interface | Follow the analysis workflow and review session results. |
-| 🔄 Session Management | Reset a session and analyze another video. |
+|:---|:---|
+| 🎥 **Video Analysis** | Upload supported exercise videos for movement analysis |
+| 🦴 **AI Pose Estimation** | Detect body landmarks using computer vision |
+| 🔁 **Repetition Tracking** | Estimate repetitions from movement patterns |
+| 📐 **Joint Angle Analysis** | Calculate knee angles and observed angle ranges |
+| 📊 **Movement Analytics** | Analyze repetition duration and consistency estimates |
+| 🧠 **AI Coaching Insights** | Generate explanations from session metrics through the backend |
+| ⚡ **Interactive Dashboard** | Explore results through an intuitive interface |
+| 🔄 **Session Management** | Reset and begin a new analysis session |
 
-## 🧠 How It Works
+---
+
+# 🧠 HOW HIPERMOVE WORKS
 
 ```mermaid
 flowchart TD
-    A[Upload Exercise Video] --> B[Validate Video]
-    B --> C[Detect Body Landmarks]
-    C --> D[Analyze Movement Patterns]
-    D --> E[Estimate Repetitions and Joint Angles]
-    E --> F[Generate Session Metrics]
-    F --> G[Request Coaching Explanation]
-    G --> H[Review Movement Insights]
+    A["🎥 Upload Exercise Video"]
+    B["🔍 Validate Video"]
+    C["🦴 Detect Body Landmarks"]
+    D["⚙️ Analyze Movement Patterns"]
+    E["📐 Calculate Joint Angles"]
+    F["🔁 Estimate Repetitions"]
+    G["📊 Generate Session Metrics"]
+    H["🤖 Request AI Coaching"]
+    I["💡 Review Movement Insights"]
 
-    style A fill:#0D9488,color:#ffffff,stroke:#0D9488
-    style H fill:#6366F1,color:#ffffff,stroke:#6366F1
+    A --> B --> C --> D
+    D --> E
+    D --> F
+    E --> G
+    F --> G
+    G --> H --> I
+
+    style A fill:#0D9488,color:#fff,stroke:#0D9488
+    style C fill:#6366F1,color:#fff,stroke:#6366F1
+    style G fill:#2563EB,color:#fff,stroke:#2563EB
+    style I fill:#7C3AED,color:#fff,stroke:#7C3AED
 ```
 
-### The Analysis Pipeline
+### 🔬 Analysis Pipeline
 
-1. **Upload:** Select a supported exercise video.
-2. **Detect:** Identify body landmarks across sampled video frames.
-3. **Analyze:** Estimate repetitions and calculate relevant movement metrics.
-4. **Summarize:** Organize the measurements into session results.
-5. **Explain:** Use the configured backend to request a coaching explanation.
-6. **Review:** Explore the available insights and start another session.
+| Stage | Operation | Output |
+|:---:|---|---|
+| 01 | Video Upload | Input exercise footage |
+| 02 | Pose Detection | Body landmark coordinates |
+| 03 | Motion Analysis | Movement patterns |
+| 04 | Joint Angle Calculation | Angle measurements |
+| 05 | Repetition Estimation | Repetition count |
+| 06 | Metrics Generation | Session summary |
+| 07 | AI Coaching | Natural-language feedback |
+| 08 | Results Review | Movement insights |
 
-The current analysis workflow processes up to 60 seconds of video per session.
+**Current video-processing limit:** Up to 60 seconds per session.
 
-## 🛠️ Technology Stack
+---
 
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/MediaPipe-4285F4?style=flat&logo=google&logoColor=white" alt="MediaPipe" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/pnpm-F69220?style=flat&logo=pnpm&logoColor=white" alt="pnpm" />
-</p>
+# 🛠️ TECHNOLOGY STACK
+
+<div align="center">
+
+### Frontend
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+### AI & Computer Vision
+
+![MediaPipe](https://img.shields.io/badge/MediaPipe-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### Backend & Infrastructure
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+
+</div>
+
+### Technology Overview
 
 | Technology | Role |
 |---|---|
-| React | User interface |
-| TypeScript | Type-safe application logic |
-| Vite | Development server and build tooling |
+| React | Interactive user interface |
+| TypeScript | Type-safe application development |
+| Vite | Development and build tooling |
 | MediaPipe Tasks Vision | Pose landmark detection |
-| TanStack Query | API data fetching and caching |
+| TanStack Query | API fetching and caching |
 | Wouter | Client-side routing |
-| Tailwind CSS | Styling |
+| Tailwind CSS | Responsive styling |
 | Lucide React | Icons |
-| Node.js and Express | Backend runtime and API framework |
-| OpenAI SDK | AI integration |
+| Node.js | Backend runtime |
+| Express | Backend API |
+| OpenAI SDK | AI-powered coaching integration |
 | Drizzle ORM | Database access |
 | Zod | Data validation |
-| pnpm | Package and workspace management |
+| pnpm | Workspace and dependency management |
 
-## 📂 Project Structure
+---
+
+# 🏗️ SYSTEM ARCHITECTURE
+
+```mermaid
+flowchart TD
+    A["👤 User"]
+    B["⚛️ React + TypeScript"]
+    C["🎥 Video Processing"]
+    D["🦴 MediaPipe Pose Detection"]
+    E["📊 Movement Metrics"]
+    F["⚡ Express Backend"]
+    G["🤖 AI Coaching Integration"]
+    H["💡 Feedback Dashboard"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+
+    style A fill:#0F172A,color:#fff
+    style B fill:#2563EB,color:#fff
+    style D fill:#0D9488,color:#fff
+    style G fill:#7C3AED,color:#fff
+    style H fill:#059669,color:#fff
+```
+
+---
+
+# 📂 PROJECT STRUCTURE
 
 ```text
 HiperMove-Mobility-Assistant/
 │
 ├── HiperMove-Mobility-Assistant/
+│   │
 │   ├── artifacts/
 │   │   ├── hipermove/          # Main application
 │   │   ├── api-server/         # Backend API
-│   │   └── mockup-sandbox/     # UI experimentation
+│   │   └── mockup-sandbox/     # UI experiments
 │   │
 │   ├── lib/
-│   │   ├── api-client-react/   # React API client
+│   │   ├── api-client-react/   # API client
 │   │   ├── api-spec/           # API specification
-│   │   ├── api-zod/             # Validation schemas
-│   │   └── db/                  # Database layer
+│   │   ├── api-zod/            # Validation
+│   │   └── db/                 # Database layer
 │   │
-│   ├── scripts/                 # Workspace scripts
+│   ├── scripts/                # Workspace scripts
 │   ├── package.json
 │   ├── pnpm-lock.yaml
 │   ├── pnpm-workspace.yaml
@@ -142,105 +217,195 @@ HiperMove-Mobility-Assistant/
 └── README.md
 ```
 
-## ⚙️ Getting Started
+---
 
-Want to run HiperMove locally? Follow these steps.
+# ⚙️ GETTING STARTED
 
-### Prerequisites
+## Prerequisites
 
-Install the following tools:
+Install:
 
-- [Node.js](https://nodejs.org/)
-- [pnpm](https://pnpm.io/)
-- [Git](https://git-scm.com/)
-- A modern browser
+- Node.js
+- pnpm
+- Git
+- A modern web browser
 
-### 1. Clone the repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/Madhuri-Kumari2504/HiperMove-Mobility-Assistant.git
 ```
 
-### 2. Enter the project directory
+## 2. Navigate to Project
 
 ```bash
 cd HiperMove-Mobility-Assistant/HiperMove-Mobility-Assistant
 ```
 
-### 3. Install dependencies
+## 3. Install Dependencies
 
 ```bash
-corepack pnpm install
+pnpm install
 ```
 
-### 4. Start the application
-
-Check the available scripts in the relevant `package.json` files first.
-
-If the workspace package is named `@workspace/hipermove`, start the frontend with:
+If pnpm is not installed:
 
 ```bash
-corepack pnpm --filter @workspace/hipermove dev
+npm install -g pnpm
 ```
 
-Open the local address printed in your terminal.
+## 4. Run Frontend
 
-### 5. Configure the backend
+If the workspace package is named `@workspace/hipermove`:
 
-Some features depend on the backend API and its environment configuration. Follow the server's setup instructions, configure the required environment variables, and ensure the frontend points to the correct API address.
+```bash
+pnpm --filter @workspace/hipermove dev
+```
 
-**Note:** The exact startup commands may vary depending on the workspace configuration.
+Open the local URL shown in your terminal.
 
-## 🔐 Privacy & Responsible Use
+## 5. Configure Backend
 
-- The video analysis workflow uses browser-based pose estimation.
-- Session metrics may be sent to the configured backend for coaching explanations.
-- Avoid uploading sensitive or personally identifiable footage.
-- Secure backend endpoints and environment variables before deployment.
-- Results may vary with camera angle, lighting, occlusion, and video quality.
+The AI coaching functionality requires the backend to be running and configured.
 
-HiperMove provides informational fitness support. Its estimates are not a medical diagnosis or a substitute for qualified medical or fitness guidance.
+Check the backend package scripts and set the required environment variables.
 
-## 🗺️ Future Enhancements
+Keep API keys and database credentials server-side.
 
-Potential directions for further development:
+---
 
-- [ ] Support for more exercises and movement types
-- [ ] Real-time movement analysis
-- [ ] Visual pose overlays and joint-angle timelines
-- [ ] Session history and progress tracking
-- [ ] Side-by-side movement comparisons
-- [ ] Improved mobile experience and accessibility
-- [ ] Automated testing and continuous deployment
+# 🔐 PRIVACY & RESPONSIBLE AI
 
-## 🤝 Contributing
+We believe AI-powered movement analysis should be transparent and responsible.
 
-Ideas and contributions are welcome!
+- Pose estimation is performed in the browser.
+- Session metrics may be sent to the configured backend.
+- Avoid uploading confidential or sensitive footage.
+- Protect backend credentials and API keys.
+- Results can vary due to lighting, camera angle, occlusion, and video quality.
+- AI coaching explanations are informational and may be imperfect.
+
+> ⚠️ HiperMove is not a medical diagnostic system or a substitute for professional healthcare or fitness guidance.
+
+---
+
+# 🚀 PROJECT ROADMAP
+
+| Phase | Planned Enhancement |
+|---|---|
+| Phase 1 | Additional exercise recognition |
+| Phase 2 | Real-time movement analysis |
+| Phase 3 | Pose overlays and angle timelines |
+| Phase 4 | Workout history and progress tracking |
+| Phase 5 | Side-by-side movement comparison |
+| Phase 6 | Enhanced mobile experience |
+| Phase 7 | Automated testing and deployment |
+
+These are proposed enhancements, not currently verified capabilities.
+
+---
+
+# 👑 MEET TEAM codeX
+
+<div align="center">
+
+## 💜 The Innovators Behind HiperMove
+
+### TEAM codeX
+
+**Think Bold. Build Smart. Code Beyond Limits.**
+
+*Engineering intelligent solutions for real-world challenges.*
+
+<br/>
+
+![Team codeX](https://img.shields.io/badge/TEAM-codeX-8B5CF6?style=for-the-badge&labelColor=111827)
+![Team Leader](https://img.shields.io/badge/TEAM_LEADER-Alka_Kumari-0D9488?style=for-the-badge&labelColor=111827)
+
+</div>
+
+### 👥 Team Information
+
+| Position | Name | Role |
+|:---|:---|:---|
+| 👑 **Team Leader** | **Alka Kumari** | Team leadership and coordination |
+| 👩‍💻 **Project Author** | **Madhuri Kumari** | Project authorship and repository |
+| 🚀 **Development Team** | **codeX** | Project development and innovation |
+
+### 💡 Our Philosophy
+
+At **codeX**, we believe technology should solve meaningful problems.
+
+HiperMove reflects our interest in combining artificial intelligence, computer vision, and accessible software to explore a smarter approach to fitness and movement analysis.
+
+### 🌟 Our Values
+
+**Innovation** — Explore new possibilities with AI.
+
+**Collaboration** — Build better solutions together.
+
+**Precision** — Focus on meaningful, measurable insights.
+
+**Impact** — Develop technology with practical value.
+
+---
+
+# 🤝 CONTRIBUTING
+
+We welcome constructive feedback and contributions.
 
 1. Fork the repository.
 2. Create a feature branch.
 3. Implement and test your changes.
-4. Commit your work with a descriptive message.
-5. Open a pull request explaining your contribution.
-
-## 📄 License
-
-Check the project's existing license and package metadata before redistributing the software. Add a root-level `LICENSE` file to make the repository's licensing terms explicit.
-
-## 👩‍💻 Author
-
-**Madhuri Kumari**
-
-- GitHub: [@Madhuri-Kumari2504](https://github.com/Madhuri-Kumari2504)
-- Project Repository: [HiperMove-Mobility-Assistant](https://github.com/Madhuri-Kumari2504/HiperMove-Mobility-Assistant)
-- Live Application: [Launch HiperMove](https://hiper-move-mobility-assistant--motionnn.replit.app/)
+4. Commit with a meaningful message.
+5. Submit a pull request.
 
 ---
 
-<p align="center">
-  <a href="https://hiper-move-mobility-assistant--motionnn.replit.app/">
-    <strong>🚀 TRY HIPERMOVE NOW</strong>
-  </a>
-  <br /><br />
-  <em>Understand your movement. Make every rep count.</em>
-</p>
+# 📄 LICENSE
+
+Check the project's existing license before redistribution.
+
+A root-level `LICENSE` file should be added to explicitly define usage and contribution rights.
+
+---
+
+# 👩‍💻 PROJECT CREDITS
+
+| | |
+|---|---|
+| **Project** | HiperMove — AI-Powered Mobility Assistant |
+| **Team** | codeX |
+| **Team Leader** | Alka Kumari |
+| **Author** | Madhuri Kumari |
+| **GitHub** | [Madhuri-Kumari2504](https://github.com/Madhuri-Kumari2504) |
+| **Repository** | [HiperMove-Mobility-Assistant](https://github.com/Madhuri-Kumari2504/HiperMove-Mobility-Assistant) |
+| **Live Demo** | [Launch HiperMove](https://hiper-move-mobility-assistant--motionnn.replit.app/) |
+
+---
+
+<div align="center">
+
+# 💜 BUILT BY TEAM codeX
+
+### 👑 Led by Alka Kumari
+
+### 🏃 HIPERMOVE
+
+**AI-Powered Mobility & Movement Analysis**
+
+<br/>
+
+[![Try HiperMove](https://img.shields.io/badge/🚀_TRY_HIPERMOVE-LAUNCH_NOW-0D9488?style=for-the-badge&labelColor=111827)](https://hiper-move-mobility-assistant--motionnn.replit.app/)
+
+[![GitHub](https://img.shields.io/badge/⭐_STAR_OUR_PROJECT-GITHUB-181717?style=for-the-badge&logo=github)](https://github.com/Madhuri-Kumari2504/HiperMove-Mobility-Assistant)
+
+<br/>
+
+### Move Smarter. Analyze Better. Improve Every Rep.
+
+**Innovation • Intelligence • Impact**
+
+Made with ❤️ by **Team codeX**
+
+</div>
