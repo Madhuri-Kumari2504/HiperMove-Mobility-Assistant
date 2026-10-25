@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "HiperMove"
+description = "A privacy-first movement assistant that analyzes a short squat video in the browser, shows pose landmarks, counts repetitions, and explains the measured movement in plain language."
+version = "1.0.0"
+id = "artifacts/hipermove"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19327
+
+[services.development]
+run = "pnpm --filter @workspace/hipermove run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/hipermove", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/hipermove/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19327"
+BASE_PATH = "/"

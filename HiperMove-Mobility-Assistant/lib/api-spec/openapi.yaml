@@ -1,0 +1,103 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: hipermove
+    description: Exercise session analysis
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+  /hipermove/session-explanation:
+    post:
+      operationId: createHipermoveSessionExplanation
+      tags: [hipermove]
+      summary: Explain measured squat session metrics
+      description: Generates a short plain-language explanation from browser-measured movement metrics. No video is sent to this endpoint.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SessionMetricsInput"
+      responses:
+        "200":
+          description: Session explanation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionExplanation"
+        "400":
+          description: Invalid session metrics
+        "502":
+          description: Explanation provider unavailable
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+    SessionMetricsInput:
+      type: object
+      properties:
+        repetitions:
+          type: integer
+          minimum: 0
+          maximum: 100
+        averageKneeAngleDegrees:
+          type: number
+          minimum: 0
+          maximum: 180
+        consistencyPercent:
+          type: number
+          minimum: 0
+          maximum: 100
+        averageRepSeconds:
+          type: number
+          minimum: 0
+          maximum: 120
+        analyzedSeconds:
+          type: number
+          minimum: 0
+          maximum: 3600
+      required:
+        - repetitions
+        - averageKneeAngleDegrees
+        - consistencyPercent
+        - averageRepSeconds
+        - analyzedSeconds
+    SessionExplanation:
+      type: object
+      properties:
+        headline:
+          type: string
+        explanation:
+          type: string
+        tip:
+          type: string
+      required:
+        - headline
+        - explanation
+        - tip
+

@@ -1,0 +1,20 @@
+lugin:vite:import-analysis] Failed to resolve import "@mediapipe/tasks-vision" from "src/App.tsx". Does the file exist?
+/home/runner/workspace/artifacts/hipermove/src/App.tsx:3:73
+4  |  import { useCallback, useEffect, useRef, useState } from "react";
+5  |  import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+6  |  import { FilesetResolver, PoseLandmarker } from "@mediapipe/tasks-vision";
+   |                                                   ^
+7  |  import {
+8  |    Activity,
+    at TransformPluginContext._formatLog (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.7_@types+node@25.9.9_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:29250:43)
+    at TransformPluginContext.error (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.7_@types+node@25.9.9_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:29247:14)
+    at normalizeUrl (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.7_@types+node@25.9.9_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:27370:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.7_@types+node@25.9.9_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:27428:32
+    at async Promise.all (index 3)
+    at async TransformPluginContext.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.7_@types+node@25.9.9_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:27396:4)
+    at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.7_@types+node@25.9.9_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:29048:14)
+    at async loadAndTransform (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.7_@types+node@25.9.9_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:22914:26)
+    at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/.pnpm/vite@7.3.7_@types+node@25.9.9_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_yaml@2.9.1/node_modules/vite/dist/node/chunks/config.js:24790:20)
+Click outside, press Esc key, or fix the code to dismiss.
+You can also disable this overlay by setti
